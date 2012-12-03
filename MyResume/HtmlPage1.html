@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Include/Jquery/Jquery1.7.2.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="xxx">
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            var t = new Date().getTime();
+            console.info(t);
+
+            $.ajax({
+                url: 'http://localhost:12802/Chat/ChatService.svc/getList?update',
+                data: { update: 0 },
+                success: function (data) {
+                    $("#xxx").text(data);
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

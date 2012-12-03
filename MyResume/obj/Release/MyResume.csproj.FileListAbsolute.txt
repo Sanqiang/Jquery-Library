@@ -1,0 +1,4 @@
+C:\Users\Sanqiang\Dropbox\VSProject\MyResume\MyResume\bin\MyResume.dll
+C:\Users\Sanqiang\Dropbox\VSProject\MyResume\MyResume\bin\MyResume.pdb
+C:\Users\Sanqiang\Dropbox\VSProject\MyResume\MyResume\obj\Release\MyResume.dll
+C:\Users\Sanqiang\Dropbox\VSProject\MyResume\MyResume\obj\Release\MyResume.pdb

@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sanqiang Zhao</title>
+    <script type="text/javascript" src="Include/Jquery/Jquery1.7.2.js"></script>
+    <script src="Include/UI/ui.js" type="text/javascript"></script>
+    <script src="Include/UI/property.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Include/JS/Default.js"></script>
+    <link href="Include/UI/ui.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Include/CSS/Default.css" />
+</head>
+<body>
+    <div id="Content">
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <h1>Sanqiang Zhao`s HomePage</h1>
+                        <table style="width: 50%; margin: 0 auto; text-align: left">
+                            <tr>
+                                <td>
+                                    <strong>Title</strong>
+                                </td>
+                                <td colspan="3">Developer
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Phone</strong>
+                                </td>
+                                <td>412-944-5033
+                                </td>
+                                <td>
+                                    <strong>E-mail</strong>
+                                </td>
+                                <td>zhaosanqiang916@gmail.com
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Location</strong>
+                                </td>
+                                <td colspan="3">3725 Dawson Street Pittsburgh PA
+                                </td>
+                            </tr>
+                        </table>
+                        <p />
+                        <table style="margin: 0 auto" class="ovewview_tab">
+
+                            <tr>
+                                <td>
+                                    <div class="mosaic_proj">
+                                        <h2>Project Experience</h2><br />
+                                        <button onclick="$('#Content').FlipperGo(2, 1);">
+                                            Detail....</button><br />
+                                        Self-Adaptive Learning Through Teaching (SALT)<br />
+                                        Collaborative Management of Talks(CoMeT)<br />
+                                        Scholar Search Engineer<br />
+                                        Google+ Improvement Search Engine<br />
+                                        CMS website system<br />
+                                        ....<br />
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="mosaic_job">
+                                        <h2>Working Experience</h2><br />
+                                        <button onclick="$('#Content').FlipperGo(3, 1);">
+                                            Detail....</button><br />
+                                        Working as Junior Developer in ZapSolutions<br />
+                                        From Apr 2012 to Dec 2012
+                                        <br />
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="mosaic_skill">
+                                        <h2>Skill</h2><br />
+                                        <button onclick="$('#Content').FlipperGo(5, 1);">
+                                            Detail....</button>
+                                        <br />
+                                        DotNet(EntityFramework, Linq, MVC, Spring.Net, WCF....)<br />
+                                        Java(J2EE,Struts+Spring+Hibernate,JSF, android....)<br />
+                                        Web Develop(HTML5/CSS3, Jquery, Ajax, Json, Web service)<br />
+                                        ....<br />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mosaic_edu">
+                                        <h2>Education Background</h2><br />
+                                        <button onclick="$('#Content').FlipperGo(4, 1);">
+                                            Detail....</button><br />
+                                        Graduate at University of Pittsburgh<br />
+                                        From Sep 2011 to Dec 2012<br />
+                                        $6000 ScholarShip<br />
+                                        GPA 3.875
+                                        <br />
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="mosaic_trans">
+                                        <h2>Transcript</h2><br />
+                                        <button onclick="$('#Content').FlipperGo(4, 2);">
+                                            Detail....</button><br />
+                                        Current GPA: 3.875<br />
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="mosaic_ovewview">
+                                        <h2>Overview</h2><br />
+                                        Have a general overview<br />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="Include/Image/build.jpg" alt="build" /><br />
+                        <button onclick="$('#Content').FlipperGo(1, 1);">
+                            Back to HomePage</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <div>
+                            <table style="margin: auto">
+                                <tr>
+                                    <td>
+                                        <div id="comet_proj"></div>
+                                    </td>
+
+                                    <td>
+                                        <div id="zap_proj"></div>
+                                    </td>
+
+                                    <td>
+                                        <div id="cn3_proj"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="googleplus_proj"></div>
+                                    </td>
+                                    <td>
+                                        <div id="cms_proj"></div>
+                                    </td>
+
+                                    <td>
+                                        <div id="salt_proj"></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <button onclick="$('#Content').FlipperGo(1, 1);">
+                            Back to HomePage</button>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <div id="comet_proj_d"></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <div id="cn3_proj_d"></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <div id="googleplus_proj_d"></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <div id="cms_proj_d"></div>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <div id="salt_proj_d"></div>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <div style="width: 70%; margin: auto; text-align: center; border: 0">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div id="zap_com">
+                                            <img src="Include/Image/zap.png" alt="zap" />
+                                        </div>
+
+                                    </td>
+                                    <td>
+                                        <div id="21cn_com">
+                                            <img src="Include/Image/21cn.png" alt="21cn" />
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+                        <div style="margin: auto; text-align: center; border: 0">
+                            <button onclick="$('#Content').FlipperGo(3, 2);">
+                                Work Project</button>
+                            <button onclick="$('#Content').FlipperGo(1, 1);">
+                                Back to HomePage</button>
+                        </div>
+
+                    </div>
+                </td>
+                <td>
+                    <div>
+
+                        <div id="zap_proj_d">
+                        </div>
+                        <button onclick="$('#Content').FlipperGo(1, 1);">
+                            Back to HomePage</button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <table style="margin: 0 auto" class="education_tab">
+                            <tr>
+                                <td>
+                                    <div class="upitt">
+                                        <img src="Include/Image/upitt.png" alt="Upitt" /><br />
+                                        <strong>University of Pittsburgh</strong>
+                                        <br />
+                                        Pittsburgh PA
+                                        <br />
+                                        Master of Science in Information Science
+                                        <br />
+                                        Sep. 2011 to Dec. 2012
+                                        <br />
+                                        Current GPA 3.875
+                                        <br />
+                                        <button onclick="$('#Content').FlipperGo(4, 2);">
+                                            Transcript</button>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="sias">
+                                        <img src="Include/Image/zz.png" alt="Upitt" /><br />
+                                        <strong>ZhengZhou University</strong>
+                                        <br />
+                                        Henan Zhengzhou
+                                        <br />
+                                        Bachelor of Information science
+                                        <br />
+                                        Sep. 2006 to Jun. 2010
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <button onclick="$('#Content').FlipperGo(1, 1);">
+                            Back to HomePage</button>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <table id="ScriptTab" style="margin: 0 auto; text-align: left;">
+                            <tr>
+                                <td colspan="2" style="text-align: center">
+                                    <strong>Current GPA 3.875</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>INFORMATN STORAGE & RETRIEVAL
+                                </td>
+                                <td>A+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>INTRODUCTION TO SECURITY
+                                </td>
+                                <td>A
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HUMAN INFORMATION PROCESSING
+                                </td>
+                                <td>A
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>INTERACTIVE SYSTEM DESIGN
+                                </td>
+                                <td>A
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ADAPTIVE INFORMATION SYSTEMS
+                                </td>
+                                <td>A-
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>INFORMATION SYSTEMS ANALYSIS
+                                </td>
+                                <td>B
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>WEB TECHNOLOGIES & STANDARDS
+                                </td>
+                                <td>A
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>DATABASE MANAGEMENT
+                                </td>
+                                <td>A
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>E-BUSINESS
+                                </td>
+                                <td>A
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>WEB SERVS & DISTRIBTD COMPUTNG
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>PRACTICUM
+                                </td>
+                                <td>A+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>PRACTICUM
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Some Important Courses Undergraduate:<br />
+                                    <ul style="list-style: none; margin: 0">
+                                        <li style="display: inline">JAVA Programming Design </li>
+                                        <li style="display: inline">Data Structure </li>
+                                        <li style="display: inline">Operating System </li>
+                                        <li style="display: inline">Web Design </li>
+                                        <li style="display: inline">SQL Server </li>
+                                        <li style="display: inline">Principles of Database </li>
+                                        <li style="display: inline">Computer Network</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                        <button onclick="$('#Content').FlipperGo(1, 1);">
+                            Back to HomePage</button>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <div style="margin: 0 auto; text-align: left; width: 50%; border: 0;">
+                            <dl>
+                                <dt>Program:</dt>
+                                <dd>
+                                    <button>
+                                        DotNet</button>
+                                    <button>
+                                        Java</button>
+                                    <button>
+                                        Jquery / Javascript</button>
+                                    <button>
+                                        Html 4/5</button>
+                                    <button>
+                                        CSS 2/3</button>
+                                    <button>
+                                        C++</button>
+                                    <button>
+                                        ActionScript3</button>
+                                    <button>
+                                        VBS</button>
+                                    <button>
+                                        PHP</button>
+                                    <button>
+                                        Perl</button></dd>
+                                <dt>Technology:</dt>
+                                <dd>
+                                    <button>
+                                        Ajax</button>
+                                    <button>
+                                        Json</button>
+                                    <button>
+                                        Web service</button>
+                                    <button>
+                                        XML / XSLT</button>
+                                    <button>
+                                        MVC / Three Layers Design</button>
+                                    <button>
+                                        UML</button></dd>
+                                <dt>Tool:</dt>
+                                <dd>
+                                    <button>
+                                        Visual Studio</button>
+                                    <button>
+                                        Netbeans</button>
+                                    <button>
+                                        Eclipse</button>
+                                    <button>
+                                        MyEclipse</button>
+                                    <button>
+                                        Coda</button>
+                                    <button>
+                                        XCode</button>
+                                    <button>
+                                        Adobe Flash Professional</button>
+                                    <button>
+                                        Flash Developer</button>
+                                    <button>
+                                        SilverLight</button>
+                                    <button>
+                                        TortoiseSVN</button>
+                                    <button>
+                                        SourceSafe</button>
+                                    <button>
+                                        VMWare</button>
+                                    <button>
+                                        Websphere</button>
+                                </dd>
+                                <dt>Database:</dt>
+                                <dd>
+                                    <button>
+                                        Sqlserver</button>
+                                    <button>
+                                        Oracle</button>
+                                    <button>
+                                        Microsoft Access</button>
+                                    <button>
+                                        Sybase</button></dd>
+                                <dt>Language:</dt>
+                                <dd>
+                                    <button>
+                                        English(Toefl:97 GRE 1290)
+                                    </button>
+                                    <button>
+                                        Chinese Mandarin</button>
+                                </dd>
+                            </dl>
+                        </div>
+                        <button onclick="$('#Content').FlipperGo(1, 1);">
+                            Back to HomePage</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="Control">
+    </div>
+    <div id="Title">
+        Personal Information
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:12802/Chat/ChatService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFApp.Chat" />
+  <xs:element name="getList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WCFApp.Chat" minOccurs="0" name="getListResult" nillable="true" type="q1:ArrayOfChatData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="postEntity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="entity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="type" type="xs:byte" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="postEntityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="postEntityResult" type="xs:byte" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

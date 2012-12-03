@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyd6nUJw930Oyyok/RAKpzAAAAAACAAAAAAAQZgAAAAEAACAAAAC3H8JW8Vbl3W/p2gEJJ3C5sRfGBCKf3plGdItXOINVAQAAAAAOgAAAAAIAACAAAAAQB0HHckIvUiAUGgFy1y6uAXcx7vb5KZmEAED+9TdbOCAAAAABVRea91JOZfXb0yor84ovt2oIAmy+/bGVWCoi/MSed0AAAADA5d8Zh8R5PNYsB0I/Mpyze7M4YaNglj8E2LBuGTeOxB/s4rM5e90ecXUNio+KwgWoIkKKHeXCtu059Y1MadYL</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/MyResume.dll">
+      <publishTime>09/25/2012 03:23:17</publishTime>
+    </File>
+    <File Include="Default.html">
+      <publishTime>09/22/2012 01:56:41</publishTime>
+    </File>
+    <File Include="Draw.html">
+      <publishTime>09/22/2012 16:51:25</publishTime>
+    </File>
+    <File Include="Gallery.html">
+      <publishTime>09/13/2012 13:05:43</publishTime>
+    </File>
+    <File Include="GalleryEx.html">
+      <publishTime>09/10/2012 14:32:07</publishTime>
+    </File>
+    <File Include="GalleryShutter.html">
+      <publishTime>09/09/2012 17:23:34</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>09/24/2012 00:24:27</publishTime>
+    </File>
+    <File Include="Include/CSS/Default.css">
+      <publishTime>09/22/2012 02:01:31</publishTime>
+    </File>
+    <File Include="Include/Image/21cn.png">
+      <publishTime>09/10/2012 14:01:27</publishTime>
+    </File>
+    <File Include="Include/Image/arrow-down.png">
+      <publishTime>07/21/2012 16:17:57</publishTime>
+    </File>
+    <File Include="Include/Image/arrow-left.png">
+      <publishTime>07/21/2012 16:16:22</publishTime>
+    </File>
+    <File Include="Include/Image/arrow-right.png">
+      <publishTime>07/21/2012 16:16:57</publishTime>
+    </File>
+    <File Include="Include/Image/arrow-up.png">
+      <publishTime>07/21/2012 16:14:23</publishTime>
+    </File>
+    <File Include="Include/Image/bg.jpg">
+      <publishTime>09/22/2012 01:37:01</publishTime>
+    </File>
+    <File Include="Include/Image/bg_mask.png">
+      <publishTime>09/22/2012 01:42:31</publishTime>
+    </File>
+    <File Include="Include/Image/btn-close.gif">
+      <publishTime>09/03/2012 15:47:38</publishTime>
+    </File>
+    <File Include="Include/Image/build.jpg">
+      <publishTime>09/11/2012 08:20:59</publishTime>
+    </File>
+    <File Include="Include/Image/comet/a.jpg">
+      <publishTime>09/10/2012 14:31:38</publishTime>
+    </File>
+    <File Include="Include/Image/comet/a_d.jpg">
+      <publishTime>09/10/2012 23:44:27</publishTime>
+    </File>
+    <File Include="Include/Image/comet/b.jpg">
+      <publishTime>09/10/2012 14:31:40</publishTime>
+    </File>
+    <File Include="Include/Image/comet/b_d.jpg">
+      <publishTime>09/10/2012 23:44:33</publishTime>
+    </File>
+    <File Include="Include/Image/comet/c.jpg">
+      <publishTime>09/10/2012 14:31:41</publishTime>
+    </File>
+    <File Include="Include/Image/comet/c_d.jpg">
+      <publishTime>09/10/2012 23:44:35</publishTime>
+    </File>
+    <File Include="Include/Image/comet/d.jpg">
+      <publishTime>09/10/2012 14:31:42</publishTime>
+    </File>
+    <File Include="Include/Image/comet/d_d.jpg">
+      <publishTime>09/10/2012 23:44:36</publishTime>
+    </File>
+    <File Include="Include/Image/mosaic-magnify.png">
+      <publishTime>03/17/2011 10:51:38</publishTime>
+    </File>
+    <File Include="Include/Image/shutter.png">
+      <publishTime>09/03/2012 17:38:46</publishTime>
+    </File>
+    <File Include="Include/Image/sias.gif">
+      <publishTime>09/05/2012 21:43:22</publishTime>
+    </File>
+    <File Include="Include/Image/upitt.png">
+      <publishTime>09/05/2012 21:34:48</publishTime>
+    </File>
+    <File Include="Include/Image/zap.png">
+      <publishTime>09/10/2012 14:01:46</publishTime>
+    </File>
+    <File Include="Include/Image/zap_is_cms.png">
+      <publishTime>09/09/2012 17:37:17</publishTime>
+    </File>
+    <File Include="Include/Image/zz.png">
+      <publishTime>09/05/2012 21:47:39</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>09/05/2012 18:56:18</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_gloss-wave_16_121212_500x100.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_highlight-hard_15_888888_1x100.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_highlight-hard_55_555555_1x100.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_highlight-soft_35_adadad_1x100.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_highlight-soft_60_dddddd_1x100.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-bg_inset-soft_15_121212_1x100.png">
+      <publishTime>09/05/2012 18:56:12</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_666666_256x240.png">
+      <publishTime>09/05/2012 18:56:16</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_aaaaaa_256x240.png">
+      <publishTime>09/05/2012 18:56:18</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_bbbbbb_256x240.png">
+      <publishTime>09/05/2012 18:56:14</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_c98000_256x240.png">
+      <publishTime>09/05/2012 18:56:16</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_cccccc_256x240.png">
+      <publishTime>09/05/2012 18:56:16</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>09/05/2012 18:56:18</publishTime>
+    </File>
+    <File Include="Include/Jquery/images/ui-icons_f29a00_256x240.png">
+      <publishTime>09/05/2012 18:56:18</publishTime>
+    </File>
+    <File Include="Include/Jquery/jquery-ui-1.8.23.custom.css">
+      <publishTime>09/05/2012 18:56:18</publishTime>
+    </File>
+    <File Include="Include/Jquery/jquery-ui-1.8.23.custom.min.js">
+      <publishTime>09/05/2012 18:56:18</publishTime>
+    </File>
+    <File Include="Include/Jquery/Jquery1.7.2.js">
+      <publishTime>07/20/2012 00:02:17</publishTime>
+    </File>
+    <File Include="Include/JS/Default.js">
+      <publishTime>09/22/2012 02:41:01</publishTime>
+    </File>
+    <File Include="Include/UI/property.js">
+      <publishTime>09/16/2012 17:33:43</publishTime>
+    </File>
+    <File Include="Include/UI/ui.css">
+      <publishTime>09/09/2012 20:28:44</publishTime>
+    </File>
+    <File Include="Include/UI/ui.js">
+      <publishTime>09/22/2012 04:19:18</publishTime>
+    </File>
+    <File Include="Mosaic.html">
+      <publishTime>09/06/2012 20:24:30</publishTime>
+    </File>
+    <File Include="Service References/ChatService/ChatService.wsdl">
+      <publishTime>09/23/2012 22:26:54</publishTime>
+    </File>
+    <File Include="Service References/ChatService/configuration.svcinfo">
+      <publishTime>09/23/2012 22:26:54</publishTime>
+    </File>
+    <File Include="Service References/ChatService/configuration91.svcinfo">
+      <publishTime>09/23/2012 22:26:54</publishTime>
+    </File>
+    <File Include="Service References/ChatService/MyResume.ChatService.ChatData.datasource">
+      <publishTime>09/23/2012 22:26:55</publishTime>
+    </File>
+    <File Include="Service References/ChatService/Reference.svcmap">
+      <publishTime>09/23/2012 22:26:54</publishTime>
+    </File>
+    <File Include="Subject.html">
+      <publishTime>09/04/2012 15:16:51</publishTime>
+    </File>
+    <File Include="WCF.html">
+      <publishTime>09/25/2012 03:18:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/25/2012 03:23:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

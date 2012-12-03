@@ -1,0 +1,28 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image:url('../Image/bg.jpg');
+
+    /*normal text*/
+    font:13px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#9F9F9F;
+}
+
+.ui-button {
+    font-size: 77%;
+}
+h1 {
+    font:60px/60px "Proxima Nova Condensed Semibold","Arial Narrow",Impact,Helvetica,Arial,sans-serif;
+    text-shadow:0 -2px 0 rgba(0, 0, 0, 0.7);
+    -webkit-font-smoothing:antialiased;
+}
+h2 {
+    font-family:"Proxima Nova Condensed Semibold", "Arial Narrow", Helvetica, Arial, sans-serif;
+    color:#EEE;
+    text-shadow:0 -2px 0 rgba(0, 0, 0, 0.7);
+    -webkit-font-smoothing:antialiased;
+}
+strong {
+    color:#EEE;
+    text-shadow:0 -2px 0 rgba(0, 0, 0, 0.7);
+}

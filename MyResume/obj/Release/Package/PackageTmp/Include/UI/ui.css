@@ -1,0 +1,120 @@
+/* ToolTip */
+.Tooltip-Sanqiang
+{
+    position:absolute;
+    display:none;
+    font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+    font-size:12px;
+    color:#444;
+    text-align:left;
+}
+.Tooltip-Sanqiang a:link,.Tooltip-Sanqiang a:hover,.Tooltip-Sanqiang a:visited
+{
+    color:#1c85c4;
+}
+.Tooltip-Left-Arrow
+{
+    margin-top:3px;
+    float:left;
+}
+.Tooltip-Right-Arrow    
+{
+    margin-top:3px;
+    float:left;  
+}
+.Tooltip-Main
+{
+    float:left;
+    width:300px;
+    background-color:rgb(246, 246, 246);
+    border:5px solid rgb(223, 223, 223);
+    -moz-border-radius: 5px;
+    -webkit-border--radius: 5px;
+    border-radius: 5px;
+    
+}
+.Tooltip-Title
+{
+    background-color:rgb(223, 223, 223);
+    padding:2px
+
+}
+.Tooltip-Content
+{
+    background-color:rgb(246, 246, 246);
+    padding:2px;
+    word-break:break-all;
+    overflow:auto;
+
+}
+.Tooltip-Trigger
+{    background-color:red;
+    color:White;
+}
+.Tooltip-Trigger a:link,#Tooltip-Trigger a;visited,#Tooltip-Trigger a;hover
+{    background-color:red;
+    color:White;
+}
+
+/* FloatPanel */
+.FloatPanel-Main
+{
+    font-family:"lucida grande",lucida,tahoma,helvetica,arial,sans-serif!important;
+    font-size:12px;
+}
+.FloatPanel-Main a:link,.FloatPanel-Main a:visited,.FloatPanel-Main a:hover
+{
+    color:#1985B5;
+}
+.FloatPanel-Show
+{
+    float: left;
+    cursor:pointer;
+}
+.FloatPanel-Show img{height:120px;}
+.FloatPanel-Hide
+{
+    -moz-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float:left;
+}
+/* Flipper */
+#flipper_unblanked_container
+{
+    
+}
+#flipper_blanked_container
+{
+
+}
+#flipper_blanked_container table td div
+{
+    
+}
+#flipper_blanked_container table
+{
+    border-spacing:0;
+}
+.Control-Btn-Active
+{
+    background-color:#525252;
+}
+.Control-Btn-Active-Current
+{
+    background-color:Red;
+}
+#Control-Arrow table td
+{
+    border: 1px solod Black;
+}
+#Control-Arrow table tr td div
+{
+    width:12px;
+    height:12px;
+    cursor:pointer;
+}
+/*  End */

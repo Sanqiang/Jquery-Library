@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="Include/Jquery/Jquery1.7.2.js"></script>
+</head>
+<body>
+    <canvas id="hbhb" width="800px" height="600px" onmousedown="draw(event)" style="border: 1px solid #ccc"></canvas>
+    <button id="Trig" value="ttt" />
+    <script type="text/javascript">
+        function draw(event) {
+            var e = window.event || e;
+            var con = document.getElementById('hbhb').getContext('2d');
+            con.beginPath();
+            con.moveTo(e.clientX, e.clientY);
+            con.strokeStyle = '#123456'
+            con.lineWidth = 1
+            con.shadowBlur = "0";
+            //con.strokeRect(25, 25, 200, 200);
+            con.shadowBlur = "5";
+
+            con.lineCap = 'butt';
+            con.lineJoin = 'round';
+            document.onmousemove = function (e) {
+                con.lineTo(e.clientX, e.clientY);
+                con.stroke();
+                document.onmouseup = function () {
+                    con.closePath();
+                    con.stroke();
+                    document.onmousemove = null;
+                }
+            }
+        }
+
+            document.getElementById('Trig').onclick = function (e) {
+                //con.attr("width", "800px");
+                console.info("x");
+                var con = document.getElementById('hbhb').getContext('2d');
+                var x = con.getImageData(0,0,800,600);
+                console.info(x.data);
+            }
+    </script>
+</body>
+</html>

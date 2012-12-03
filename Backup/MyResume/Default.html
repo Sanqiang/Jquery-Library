@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Include/Jquery/Jquery1.7.2.js" type="text/javascript"></script>
+    <script src="Include/UI/ui.js" type="text/javascript"></script>
+    <link href="Include/UI/ui.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Include/UI/base.css" />
+    <script type="text/javascript">
+        $(function () {
+            var win_width = document.documentElement.clientWidth;
+            var win_heght = document.documentElement.clientHeight;
+            console.info(win_width + "x" + win_heght);
+            $("#Content").Flipper({
+                control: {
+                    el: "#Control",
+                    rect: "12"
+                },
+                view: {
+                    width: win_width,
+                    height: win_heght,
+                    item_width: win_width - 2,
+                    item_height: win_heght - 2,
+                    marginLeft: 0,
+                    marginTop: 0
+                }
+            });
+            $("#Content").FlipperGo(2, 2);
+            $("#Control").locate({
+                vertical: 'bottom',
+                horizontal: 'center'
+            });
+            $("#Title").locate({
+                vertical: 'top',
+                horizontal: 'center'
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="Content">
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        A</div>
+                </td>
+                <td>
+                    <div>
+                        B</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        C</div>
+                </td>
+                <td>
+                    <div>
+                        D</div>
+                </td>
+                <td>
+                    <div>
+                        E</div>
+                </td>
+                <td>
+                    <div>
+                        F</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        G</div>
+                </td>
+                <td>
+                    <div>
+                        H</div>
+                </td>
+                <td>
+                    <div>
+                        I</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="Control">
+    </div>
+    <div id="Title">
+        Title</div>
+</body>
+</html>
