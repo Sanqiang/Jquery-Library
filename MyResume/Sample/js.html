@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //closure
+        function bibao() {
+            var n = 1;
+            function bibao2() {
+                alert(n);
+            }
+            add = function () {
+                ++n;
+            }// without var, this is global function
+            return bibao2;
+        }
+
+        window.onload = function (e) {
+            //var x = bibao();
+            //console.info(e);
+            //x(); //1
+            //add(); //+1
+            //x(); //2
+
+        }
+
+        //argument
+        Array.prototype.myval = 100;
+        function argtest(a, b) {
+            var argu_len = arguments.length;
+            var exp_len = argtest.length;
+            for (var i = 0; i < argu_len; i++) {
+                console.info(arguments[i]);
+            }
+            console.info(argu_len + "-" + exp_len);
+            for (var i = 0; i < exp_len; i++) {
+                console.info(argtest[i]);
+            }
+            console.info(argtest.myval);
+            console.info(arguments.myval);
+        }
+        //argtest(10, 20);
+
+        //caller
+        function callerDeom() {
+            if (callerDeom.caller) {
+                console.info(callerDeom.caller.toString());
+            } else {
+                console.info("Tower");
+            }
+        }
+        window.onload = function () {
+            //callerDeom();
+        }
+
+        //callee
+        function calleeDemo(a, b, c) {
+            console.info(arguments.callee.toString());
+            console.info(arguments.callee.length);
+            console.info(arguments.length);
+        }
+        //calleeDemo(10,20);
+
+        //apply call
+        function base() {
+            member = 1;
+            method = function () {
+                console.info("method" + member);
+            }
+        }
+
+        function extend() {
+            //base.call(this);
+            base.apply(this);
+            this.method();
+        }
+        //extend();
+
+        function thiswho() {
+            glo = function xx() {
+                console.info(this);
+            }
+        }
+        //console.info(this);
+        //thiswho();
+        //glo();
+
+        //sytax
+        function sytax() {
+            console.info(null == undefined);
+            console.info(true == 5);
+            //console.info(bl);
+            console.info(typeof (bl));
+        }
+        //sytax();
+
+        Array.prototype.ha = function () {
+            console.info(this);
+            console.info(arguments);
+            console.info(arguments.callee);
+        }
+        //new Array().ha();
+
+        //regex
+        function regex() {
+            var text = "abc789efg";
+            //console.info(text.search("\\d"));
+            console.info(text.match("e"));
+            console.info(text.search("e"));
+            //console.info(text.exec("e"));
+        }
+        //regex();
+
+        //OOP
+        function constructer(x) {
+            this.memeber = x;
+        }
+
+        function method() {
+            return this.memeber;
+        }
+        var mm = new constructer(10);
+        mm.fangfa = method;
+
+        /*console.info(mm.fangfa());
+        console.info(mm.memeber);
+        console.info(mm.constructor);
+        console.info(mm.hasOwnProperty("memeber"));*/
+
+        function con2(y) {
+            this.y = y;
+            this.memeber = 100;
+        }
+
+        con2.prototype = constructer.prototype // extend
+
+        /*var con2inst = new con2();
+        console.info(con2inst.memeber);*/
+
+        //cookie
+        function getCookie(c_name) {
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=")
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1
+                    c_end = document.cookie.indexOf(";", c_start)
+                    if (c_end == -1) c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end))
+                }
+            }
+            return ""
+        }
+        document.cookie = "xx=yy";
+        document.cookie = "xx2=yy2";
+        //console.info(document.cookie);
+
+        //escape unescape
+        //console.info(escape("2 1"));
+
+        //Array
+        var arr = new Array();
+        arr.push(1);
+        arr.push("abc");
+        //console.info(arr);
+        arr.splice(0, 0, [3, 4]);
+        arr.sort(function(a ,b){ return a-b});
+        console.info(arr);
+    </script>
+</body>
+</html>

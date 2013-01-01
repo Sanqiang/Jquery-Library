@@ -3,3 +3,8 @@ C:\Users\sanqiang\Dropbox\VSProject\MyResume\MyResume\bin\MyResume.pdb
 C:\Users\sanqiang\Dropbox\VSProject\MyResume\MyResume\obj\Debug\MyResume.dll
 C:\Users\sanqiang\Dropbox\VSProject\MyResume\MyResume\obj\Debug\MyResume.pdb
 C:\Users\Sanqiang\Dropbox\VSProject\MyResume\MyResume\obj\Debug\MyResume.csprojResolveAssemblyReference.cache
+C:\Users\Sanqiang\Dropbox\GitHub\Jquery-Library\MyResume\bin\MyResume.dll
+C:\Users\Sanqiang\Dropbox\GitHub\Jquery-Library\MyResume\bin\MyResume.pdb
+C:\Users\Sanqiang\Dropbox\GitHub\Jquery-Library\MyResume\obj\Debug\MyResume.csprojResolveAssemblyReference.cache
+C:\Users\Sanqiang\Dropbox\GitHub\Jquery-Library\MyResume\obj\Debug\MyResume.dll
+C:\Users\Sanqiang\Dropbox\GitHub\Jquery-Library\MyResume\obj\Debug\MyResume.pdb

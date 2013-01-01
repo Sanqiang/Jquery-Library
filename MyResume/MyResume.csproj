@@ -115,6 +115,7 @@
     <Content Include="Include\JS\Default.js" />
     <Content Include="Include\UI\property.js" />
     <Content Include="Mosaic.html" />
+    <Content Include="Sample\js.html" />
     <Content Include="Service References\ChatService\configuration91.svcinfo" />
     <Content Include="Service References\ChatService\configuration.svcinfo" />
     <Content Include="Service References\ChatService\MyResume.ChatService.ChatData.datasource">
